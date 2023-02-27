@@ -4,3 +4,6 @@ main.*
 replit.nix
 **.bat
 **.exe
+
+# Apple stop leaking into my Git repos
+.DS_Store

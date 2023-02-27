@@ -157,7 +157,7 @@ MGA Implementation
 extern "C" {
 #endif
 
-#if defined(__linux__)
+#if defined(__linux__) || defined(__APPLE__)
 #    define MGA_PLATFORM_LINUX
 #elif defined(__APPLE__)
 #    define MGA_PLATFORM_APPLE

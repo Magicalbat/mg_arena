@@ -1,0 +1,13 @@
+[package]
+name = "mga-sys"
+version = "0.0.0"
+edition = "2021"
+
+[build-dependencies]
+cc = "1.0"
+
+[features]
+default = []
+
+# Use malloc backend instead of reserve
+malloc = []
